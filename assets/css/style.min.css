@@ -303,6 +303,18 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: "SFUIDisplay";
+  font-style: bold;
+  font-weight: 800;
+  src: url("../fonts/SFUIDisplay-Bold.woff") format(woff); }
+
+@font-face {
+  font-family: "NewYorkExtra";
+  font-style: bold;
+  font-weight: 800;
+  src: url("../fonts/NewYorkExtraLargeBold.otf") format(opentype); }
+
 .nav__list {
   display: flex;
   gap: 48px;
@@ -340,7 +352,20 @@ body {
 
 .container {
   max-width: 1440px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 165px; }
+
+@font-face {
+  font-family: "SFUIDisplay";
+  font-style: bold;
+  font-weight: 800;
+  src: url("../fonts/SFUIDisplay-Bold.woff") format(woff); }
+
+@font-face {
+  font-family: "NewYorkExtra";
+  font-style: bold;
+  font-weight: 800;
+  src: url("../fonts/NewYorkExtraLargeBold.otf") format(opentype); }
 
 .header {
   padding: 0 50px; }
@@ -363,5 +388,36 @@ body {
     cursor: pointer; }
   .header__authorization {
     padding: 4px 24px; }
+
+.title {
+  font-weight: 600;
+  font-family: NewYorkExtra;
+  color: #000000; }
+
+.main__title {
+  font-size: 112px;
+  line-height: 112px;
+  font-weight: 600;
+  color: #000;
+  max-width: 690px; }
+  .main__title span {
+    color: #FD665E; }
+
+.main__content {
+  display: flex; }
+  .main__content-text {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000;
+    max-width: 290px; }
+  .main__content-img {
+    width: 765px;
+    height: 480px;
+    object-fit: cover;
+    margin-left: 55px; }
+  .main__content-btn {
+    margin-top: 48px;
+    padding: 8px 32px; }
 
 /*# sourceMappingURL=style.min.css.map */
