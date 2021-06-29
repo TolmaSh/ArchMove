@@ -1,0 +1,15 @@
+.nav {
+    &__list {
+        display: flex;
+        gap: 48px;
+        padding-left: 0;
+    }
+    &__item {
+        list-style: none;
+        text-decoration: none;
+    }
+    &__link {
+        text-decoration: none;
+        @include text(14px,40px,400,$navColor);
+    }
+}

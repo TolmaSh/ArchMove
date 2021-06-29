@@ -1,0 +1,16 @@
+@import './general/normalize';
+@import './abstracts/vars';
+@import './abstracts/mixins';
+@import './general/nav';
+@import './general/btn';
+
+body {
+    
+    color:#fff;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@import './sections/header';

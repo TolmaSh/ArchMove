@@ -1,0 +1,29 @@
+.header {
+    padding: 0 50px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    &__left {
+        display: flex;
+        align-items: center;
+        
+    }
+    &__nav {
+        margin-left: 61px;
+    }
+    &__right {
+        display: flex;
+        gap:18px
+    }
+    &__search {
+        background-color: inherit;
+        border: none;
+        cursor: pointer;
+    }
+    &__authorization {
+        padding: 4px 24px;
+    }
+}

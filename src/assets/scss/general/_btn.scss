@@ -1,0 +1,16 @@
+.btn {
+    background-color:inherit;
+    border: none;
+    border-radius: 4px;
+    @include text(14px,40px,600,#000);
+    cursor: pointer;
+    
+    &-active {
+        background-color: #FD665E;
+        color:#fff;
+    }
+    &:hover {
+        background-color: #FD665E;
+        color: #fff;
+    }
+}
