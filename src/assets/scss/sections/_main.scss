@@ -1,0 +1,29 @@
+@import '../general/title';
+.main {
+    &__title {
+        @include text(112px,112px,600,#000);
+        max-width: 690px;
+        span {
+            color: #FD665E;
+        }
+
+    }
+    &__content {
+        display: flex;
+
+        &-text {
+            @include text(16px,25px,400,#000);
+            max-width: 290px;
+        }
+        &-img {
+            width: 765px;
+            height: 480px;
+            object-fit: cover;
+            margin-left: 55px;
+        }
+        &-btn {
+            margin-top: 48px;
+            padding: 8px 32px;
+        }
+    }
+}

@@ -1,16 +1,34 @@
 @import './general/normalize';
 @import './abstracts/vars';
 @import './abstracts/mixins';
+@import './abstracts/fonts';
 @import './general/nav';
 @import './general/btn';
 
 body {
     
     color:#fff;
+    
 }
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 165px;
+}
+@font-face {
+    font-family: "SFUIDisplay";
+    font-style: bold;
+    font-weight: 800;
+    src: url('../fonts/SFUIDisplay-Bold.woff') format(woff);
+      
+}
+@font-face {
+    font-family: "NewYorkExtra";
+    font-style: bold;
+    font-weight: 800;
+    src: url('../fonts/NewYorkExtraLargeBold.otf') format(opentype);
 }
 
+
 @import './sections/header';
+@import './sections/main';
