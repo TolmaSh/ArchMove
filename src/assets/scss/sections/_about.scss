@@ -1,0 +1,41 @@
+.about {
+    padding-bottom: 64px;
+    &__title {
+        max-width: 360px;
+    }
+    &__main {
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        width: 535px;
+        height: 610px;
+        object-fit: cover;
+    }
+    &__content {
+        margin-left: 160px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        &-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 38px;
+            &:first-child {
+                gap: 33px;
+            }
+        }
+        &-title {
+            margin: 0;
+            @include text(16px,25px,700,#000);
+        }
+        &-subtitle {
+            @include text(16px,25px,400,#000);
+            max-width: 278px;
+        }
+        &-btn {
+            align-self: center;
+            padding: 8px 32px;
+        }
+    }
+}

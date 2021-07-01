@@ -1,0 +1,54 @@
+.gallery {
+    padding-top: 125px;
+    &__title {
+        margin:0 auto;
+        text-align: center;
+        max-width: 465px;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 45px;
+        margin-top: 40px;
+    }
+    &__img {
+        width: 340px;
+        height: 432px;
+        position: relative;
+        &:hover {
+            background-color: rgb(30, 30, 30);
+            cursor: pointer;
+            }
+        &:after {
+            content: '';
+            background-image: url('../images/gallery/ic-searhc.svg');
+            width: 30px;
+            height: 30px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            opacity: 0;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+}
+        &:hover::after {
+            opacity: 1;
+        }
+        &-item {
+            width: 340px;
+            height: 432px;
+            object-fit: cover;
+                &:hover {
+                opacity: .5;
+                }
+            }
+
+       
+
+
+        }
+    }
+

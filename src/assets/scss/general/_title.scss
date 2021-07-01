@@ -1,5 +1,3 @@
 .title {
-    font-weight: 600;
-    font-family: NewYorkExtra;
-    color:#000000;
+    @include text(48px,60px,600,#000);
 }

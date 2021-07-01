@@ -1,0 +1,58 @@
+:root {
+    --swiper-navigation-size: 24px;
+    --swiper-theme-color: #000;
+    
+}
+.swiper {
+    &-content {
+        max-width: 765px;
+        margin-left: 310px;
+        position: relative;
+        &:before {
+            content: '';
+            width: 57px;
+            height: 39px;
+            background-image: url('../images/reviews-quote.svg');
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: -107px;
+
+        }
+    }
+    &-text {
+        @include text(32px,51px,300,#000);
+    }
+    &-author {
+       @include text(16px,25px,400,#000);
+       font-style: normal;
+       span {
+           font-weight: 700;
+       }
+    }
+    &-button {
+        
+        &-prev {
+            left: auto;
+            right: 60px;
+            top: 90%;
+            width: 48px;
+            height: 48px;
+            &:hover {
+                color:#FD665E;
+                background: rgba(0, 0, 0, 0.03);
+                border-radius: 4px;
+            }
+        }
+        &-next {
+            top: 90%;
+            background: rgba(0, 0, 0, 0.03);
+            border-radius: 4px;
+            width: 48px;
+            height: 48px;
+            &:hover {
+                color:#FD665E;
+            }
+        }
+    }
+}
