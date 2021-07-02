@@ -575,4 +575,14 @@ body {
     padding: 8px 32px;
     margin-top: 24px; }
 
+.partners {
+  padding-bottom: 105px;
+  padding-top: 64px; }
+  .partners__title {
+    margin-bottom: 58px; }
+  .partners__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
 /*# sourceMappingURL=style.min.css.map */
