@@ -585,4 +585,23 @@ body {
     justify-content: space-between;
     align-items: center; }
 
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 1px solid #F0F0F0; }
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__list {
+    display: flex;
+    gap: 48px;
+    padding: 0; }
+  .footer__item {
+    list-style: none;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #585858; }
+
 /*# sourceMappingURL=style.min.css.map */

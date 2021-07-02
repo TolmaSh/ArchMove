@@ -1,0 +1,19 @@
+.footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 1px solid #F0F0F0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list {
+        display: flex;
+        gap: 48px;
+        padding: 0;
+    }
+    &__item {
+        list-style: none;
+        @include text(12px,40px,600,#585858);
+    }
+}
