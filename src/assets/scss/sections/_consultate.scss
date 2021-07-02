@@ -1,0 +1,23 @@
+.consultate {
+    padding-top: 140px;
+    padding-bottom: 64px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__content {
+        margin-left: 60px;
+    }
+    &__title {
+        @include text(48px,60px,600,#000);
+        max-width: 508px;
+        
+        span {
+            color:#FD665E;
+        }
+    }
+    &__btn {
+        padding: 8px 32px;
+        margin-top: 24px;
+    }
+}

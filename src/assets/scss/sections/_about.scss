@@ -20,10 +20,9 @@
         &-wrapper {
             display: flex;
             align-items: flex-start;
-            gap: 38px;
-            &:first-child {
-                gap: 33px;
-            }
+        }
+        &-text {
+            margin-left: 35px;
         }
         &-title {
             margin: 0;

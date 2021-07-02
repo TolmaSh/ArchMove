@@ -480,10 +480,9 @@ body {
     gap: 48px; }
     .about__content-wrapper {
       display: flex;
-      align-items: flex-start;
-      gap: 38px; }
-      .about__content-wrapper:first-child {
-        gap: 33px; }
+      align-items: flex-start; }
+    .about__content-text {
+      margin-left: 35px; }
     .about__content-title {
       margin: 0;
       font-size: 16px;
@@ -555,5 +554,25 @@ body {
   height: 48px; }
   .swiper-button-next:hover {
     color: #FD665E; }
+
+.consultate {
+  padding-top: 140px;
+  padding-bottom: 64px; }
+  .consultate__wrapper {
+    display: flex;
+    align-items: center; }
+  .consultate__content {
+    margin-left: 60px; }
+  .consultate__title {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #000;
+    max-width: 508px; }
+    .consultate__title span {
+      color: #FD665E; }
+  .consultate__btn {
+    padding: 8px 32px;
+    margin-top: 24px; }
 
 /*# sourceMappingURL=style.min.css.map */
